@@ -1,0 +1,30 @@
+# ソースコード（非公開）
+*.py
+*.spec
+
+# 解析出力（公開しない）
+analysis_out/
+*_out/
+
+# examples/ に置く公開用サンプルは git add -f で個別に追加する
+# 実データ・社内画像の混入防止
+*.tif
+*.tiff
+*.bmp
+
+# PyInstaller
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
