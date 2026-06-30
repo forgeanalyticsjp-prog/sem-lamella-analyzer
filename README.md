@@ -1,3 +1,4 @@
+[English README](README.en.md)
 # SEM Analyzer
 
 > SEM画像から、ラメラ状組織の **太さ・長さ・間隔・空白域** を自動で定量化するデスクトップツールです。
